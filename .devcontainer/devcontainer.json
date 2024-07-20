@@ -1,0 +1,9 @@
+{
+  "name": "Apache Web Server",
+  "dockerFile": "Dockerfile",
+  "extensions": [],
+  "postCreateCommand": "service apache2 start",
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  }
+}
